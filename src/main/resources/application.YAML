@@ -1,7 +1,7 @@
 spring:
   datasource:
     generate-unique-name: false
-    name: jdbc:h2:mem:tacocloud
+    name: jdbc:h2:mem:tacocloudx
 ##    initialization-mode: always
 ##     FOR FIX DATA...
 #    url: jdbc:h2:mem:tacocloud;INIT=RUNSCRIPT FROM 'src/main/resources/schema.sql'\;RUNSCRIPT FROM 'src/main/resources/data.sql';
