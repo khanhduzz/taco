@@ -34,3 +34,10 @@ spring:
 #  sql:
 #    init:
 #      mode:never
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+#            scope: email, public_profile
