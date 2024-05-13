@@ -26,7 +26,7 @@ public class Taco {
     @NotNull
     @Size(min = 1, message = "Must choose at least 1 ingredient")
     @ManyToMany()
-    private List<Ingredient> ingredients;
+    private List<Ingredient> ingredients = new ArrayList<>();
 
     public void addIngredient(Ingredient ingredient) {
         this.ingredients.add(ingredient);

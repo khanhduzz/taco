@@ -1,8 +1,11 @@
 package choco.taco.taco.entities;
 
-import lombok.Data;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import lombok.*;
 
 @Data
+@Getter
 public class IngredientRef {
 
     private final String ingredient;
@@ -11,7 +14,4 @@ public class IngredientRef {
         this.ingredient = ingredient;
     }
 
-    public String getIngredient() {
-        return ingredient;
-    }
 }
